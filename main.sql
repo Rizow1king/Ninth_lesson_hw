@@ -31,3 +31,20 @@
 -- ('House', 10000000, 'Very Big House');
 
 -- SELECT * FROM products;
+-- 3-chi topshiriq
+-- DROP TABLE IF EXISTS orders;
+
+
+-- CREATE TABLE IF NOT EXISTS orders(
+-- 	order_id SERIAL UNIQUE,
+-- 	custumer_name TEXT NOT NULL,
+-- 	pro_name TEXT,
+-- 	quantity INTEGER 
+-- );
+
+-- INSERT INTO orders(custumer_name, pro_name, quantity) VALUES
+-- ('Toxirjon', 'Laptop', 2),
+-- ('Nargizahon', 'Phone', 3),
+-- ('Muslimahon', 'Headphone', 2);
+
+-- SELECT * FROM orders;
