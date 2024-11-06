@@ -1,6 +1,7 @@
--- 1-chi topshiriq
-
+-- -----------------------------------------------1-chi topshiriq----------------------------------------------------------
 -- DROP TABLE IF EXISTS student;
+
+
 -- CREATE TABLE IF NOT EXISTS student(
 --     student_id SERIAL UNIQUE,
 --     name1 TEXT NOT NULL,
@@ -14,7 +15,7 @@
 -- ('Alijanov', 17, 'Oltariq');
 
 -- SELECT * FROM student;
--- 2-chi topshiriq
+-- -------------------------------------------2-chi topshiriq------------------------------------------------------
 -- DROP TABLE IF EXISTS products;
 
 
@@ -31,7 +32,7 @@
 -- ('House', 10000000, 'Very Big House');
 
 -- SELECT * FROM products;
--- 3-chi topshiriq
+-- ------------------------------------------------3-chi topshiriq-------------------------------------------------------
 -- DROP TABLE IF EXISTS orders;
 
 
@@ -48,3 +49,21 @@
 -- ('Muslimahon', 'Headphone', 2);
 
 -- SELECT * FROM orders;
+-- --------------------------------------------4-chi topshiriq-----------------------------------------------
+-- DROP TABLE IF EXISTS employees;
+
+-- CREATE TABLE IF NOT EXISTS employees(
+--     emp_id SERIAL UNIQUE,
+--     first_name TEXT NOT NULL,
+--     status TEXT,
+--     salary INTEGER
+-- );
+
+-- INSERT INTO employees(first_name, status, salary) VALUES
+
+-- ('Sherdorbek', 'Manager', 100000),
+-- ('Safobek', 'Main', 10000),
+-- ('Azizbek', 'Consult Manager', 10002);
+
+-- SELECT * FROM employees;
+-- -----------------------------------5-chi topshiriq------------------------------------
