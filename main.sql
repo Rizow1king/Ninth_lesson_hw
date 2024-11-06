@@ -67,3 +67,19 @@
 
 -- SELECT * FROM employees;
 -- -----------------------------------5-chi topshiriq------------------------------------
+-- DROP TABLE IF EXISTS delivery;
+
+
+-- CREATE TABLE IF NOT EXISTS delivery(
+-- 	del_id SERIAL UNIQUE,
+-- 	company TEXT NOT NULL,
+-- 	phone_num NUMERIC,
+-- 	address TEXT
+-- );
+
+-- INSERT INTO delivery(company, phone_num, address) 	VALUES
+-- ('FedEx', +998936425155, 'A.Navoiy'),
+-- ('Amazon', +998981805155, 'A.Qodiriy'),		
+-- ('Express', +998955501245, 'A.Temur');
+
+-- SELECT * FROM delivery;
